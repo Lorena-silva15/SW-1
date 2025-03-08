@@ -9,8 +9,8 @@
 
   
 
-   echo " seu nome é :$nome , a soma de suas notas é: $soma, e a sua média é $media"
-   
+   echo " seu nome é :$nome , a soma de suas notas é: $soma, e a sua média é $media";
+ 
 
 
 ?>

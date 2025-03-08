@@ -1,19 +1,14 @@
 <?php
-  
-$login=('login');
-$senha=('senha');
+$loginV = "etec";
+$senhaV = "informatica";
 
-if $login = "etec" && $senha= "informatica"{
-   echo "Logado com Sucesso";}
+$login = $_POST['login'] ;
+$senha = $_POST['senha'] ;
 
-else{
-   echo"Falha ao logar"
-}    
-
-  
-
- 
-   
-
-
+if (($login == $loginV) && ($senha == $senhaV)) {
+    echo "Logado com Sucesso";
+} 
+   else {
+    echo "Falha ao logar";
+}
 ?>

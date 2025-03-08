@@ -3,18 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stilo03.css">
     
-    <title>Document</title>
+    <title>EXERCICIO03</title>
 </head>
 <body>
-
-    <form action="ex03.php" method="post">
+    <div class="container">
+        <h1>Exercício 03 POST</h1>
+        <form action="ex03.php" method="post">
         
-        <p>Insira seu login:<input type="text" maxlength="10" name="login" > </p>  
-        <p>Insira sua senha: <input type="password"  maxlength="20"name="senha"></p>
-        <input type="submit">
+            <p>Insira seu login:<input type="text" maxlength="10" name="login" required> </p>  
+            <p>Insira sua senha: <input type="password"  maxlength="20"name="senha" required></p>
+            <input class="submit" type="submit">
 
-    </form>
+         </form> 
+    </div>
+    
 
 
     

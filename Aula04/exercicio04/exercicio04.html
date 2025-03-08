@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stilo04.css">
+    
+    <title>EXERCICIO04</title>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Exercício 04 POST</h1>
+        <form action="ex04.php" method="post">
+            
+            <p>Insira seu nome:   <input type="text"  name="nome" required> </p>  
+            <p>Insira seu e-mail: <input type="email"  name="email" required></p>
+            <p>Insira sua Data de Nascimento: <input type="date"  name="data" required></p>
+            <label class="band" for="bandeira">Insira sua Bandeira de Cartão de Crédito:  </label>
+            <select name="bandeira" id="" required>
+                <option value="">A escolher</option>
+                <option value="mastercard">Mastercard</option>
+                <option value="visa">Visa</option>
+                <option value="elo">Elo</option>
+                <option value="hipercard">Hipercard</option>
+                <option value="alelo">Alelo</option>
+
+            </select>
+            <input class="submit" type="submit">
+
+        </form>
+    </div>
+
+    
+
+
+    
+</body>
+</html>

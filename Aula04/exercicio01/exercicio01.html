@@ -3,20 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chewy&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="stilo01.css">
     
-    <title>Document</title>
+    <title>EXERCICIO01</title>
 </head>
 <body>
+    <div class="container" >
+        <h1>Exercício O1 GET</h1>
+        <form action="ex01.php" method="get">
+            <P >Insira o seu nome: <input type="text" name="cxnome"  required></P>
+            <p>Insira sua 1º nota: <input type="number" name="nt1" min="0" max="10" required></p>
+            <p>Insira sua 2º nota: <input type="number" name="nt2" min="0" max="10" required></p>
+            <p>Insira sua 3º nota: <input type="number" name="nt3" min="0" max="10" required></p>
+            <input class="submit"  type="submit">
 
-    <form action="ex01.php" method="get">
-        <P>insira seu nome: <input type="text" name="cxnome"  required></P>
-        <p>Insira sua 1º nota: <input type="number" name="nt1" min="0" max="10"></p>
-        <p>Insira sua 2º nota: <input type="number" name="nt2" min="0" max="10"></p>
-        <p>Insira sua 3º nota: <input type="number" name="nt3" min="0" max="10"></p>
-        <input type="submit">
-
-    </form>
-
+        </form>
+    </div>
+        
 
     
 </body>
