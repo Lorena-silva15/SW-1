@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Ducument</title>
+    <style>
+        div{
+            width: 80%;
+            margin-left: auto;
+            margin-right: auto;
+            margin-top: 15%;
+            background-color: rgb(216, 162, 233);
+            padding: 3%;
+            border-radius: 10%;
+            text-align: center;
+        }
+        body{
+            background-color: rgb(222, 202, 255);
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h2>Gerador de Tabela</h2>
+
+        <form method="post" action="processa.php">
+            <label for="linhas">Número de linhas:</label>
+            <input type="number" name="linhas" id="linhas" min="1" required><br><br>
+
+            <label for="colunas">Número de colunas:</label>
+            <input type="number" name="colunas" id="colunas" min="1" required><br><br>
+
+            <input type="submit" value="Gerar Tabela">
+        </form>
+    </div>
+
+
+
+</body>
+</html>
