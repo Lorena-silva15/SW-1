@@ -5,7 +5,7 @@
 
   $cliente1->Nome="paola";
   $cliente1->CPF="17599378-60";
-  $cliente1->Saldo="";
+  
 
   $cliente1->MostrarSaldo();
   
