@@ -116,9 +116,9 @@
                 //mostrar detalhes
 
                 public function mostrarDetalhes(){
-                    echo "Nome do produto: {$this->Nome} <br>";
-                    echo "Preço do produto: {$this->Preco} <br>";
-                    echo "Quantidade do produto: {$this->Quantidade} <br>";
+                    echo "Nome do produto: {$this->getNome} <br>";
+                    echo "Preço do produto: {$this->getPreco} <br>";
+                    echo "Quantidade do produto: {$this->getQuantidade} <br>";
                 }
 
 
