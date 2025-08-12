@@ -12,6 +12,9 @@
     <div style="text-align:center;">
         <a href="form_cadastrar.php" class="btn">Cadastrar um novo produto</a>
         <a href="listar_produtos.php" class="btn">Visualizar lista de produtos</a>
+        <a href="insert.php" class="btn">Inserir produtos</a>
+        <a href="update.php" class="btn">Atualizar produtos</a>
+        <a href="delete.php" class="btn">Deletar produtos</a>
     </div>
     <div class="footer">SW-I - 2025</div>
 </div>

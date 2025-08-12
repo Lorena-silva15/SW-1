@@ -40,6 +40,9 @@
             <button type="button" disabled ><a href="index.php" class="btn">Cadastrar</a></button>
         </div>
     </form>
+     <div style="text-align:center; margin-top:20px;">
+        <a href="index.php" class="btn">Voltar</a>
+    </div>
 
     <div class="footer">SW-I - 2025</div>
 </div>
