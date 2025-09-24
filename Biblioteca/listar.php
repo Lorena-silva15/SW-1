@@ -26,8 +26,13 @@
         }
 
         th,td{padding:3%;
+           
             
             
+        }
+        th{
+            background-color: var(--cor-vinho);
+            color: white
         }
 
         table{
@@ -129,7 +134,7 @@
                         echo "<td>
                                 <div>
                                     <button class='btn1'> <a href='form_atualizar.php?id=". $livros['id'] ."'>Atualizar</a></button>
-                                    <button class='btn'> <a href='index.php'>Apagar</a></button>
+                                    <button class='btn'> <a href='delete.php?id=". $livros['id'] ."'>Deletar</a></button>
                                 </div>
                              </td> ";
 
@@ -142,7 +147,7 @@
                 </tbody>
         </table>
 
-        <button class='btn'style='margin-top:3%'><a href="index.php">Voltar</a></button>
+        <button class='btn'><a href="index.php">Voltar</a></button>
     </div>
 
     
